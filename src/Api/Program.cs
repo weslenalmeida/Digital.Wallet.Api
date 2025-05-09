@@ -1,9 +1,12 @@
+using Application.Infrastructure;
 using CrossCutting.Configuration;
 using Domain.Security.v1;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
+
+new Bootstrapper(builder);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

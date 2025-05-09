@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCutting.Configuration"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCutting.Exceptions", "CrossCutting.Exceptions\CrossCutting.Exceptions.csproj", "{ACCD41DE-02C1-439A-BB67-3C0E014AD7EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Shared", "Tests.Shared\Tests.Shared.csproj", "{8F9A94A6-65AE-453D-91F4-9BB307A30D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Unity", "Tests.Unity\Tests.Unity.csproj", "{2A977A47-D2B9-4541-855E-532802FF6B8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,14 @@ Global
 		{ACCD41DE-02C1-439A-BB67-3C0E014AD7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACCD41DE-02C1-439A-BB67-3C0E014AD7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACCD41DE-02C1-439A-BB67-3C0E014AD7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9A94A6-65AE-453D-91F4-9BB307A30D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9A94A6-65AE-453D-91F4-9BB307A30D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9A94A6-65AE-453D-91F4-9BB307A30D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9A94A6-65AE-453D-91F4-9BB307A30D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A977A47-D2B9-4541-855E-532802FF6B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A977A47-D2B9-4541-855E-532802FF6B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A977A47-D2B9-4541-855E-532802FF6B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A977A47-D2B9-4541-855E-532802FF6B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +71,8 @@ Global
 		{878BE900-0BB1-448F-9685-D88FEEE985A3} = {B2A9422E-55FE-4D16-BEE5-05498CAF2BFF}
 		{EA8F5FB4-2B40-43ED-A43E-EBF7E1579056} = {F42525CC-2EE7-490F-A666-0ED6A13ED491}
 		{ACCD41DE-02C1-439A-BB67-3C0E014AD7EC} = {F42525CC-2EE7-490F-A666-0ED6A13ED491}
+		{8F9A94A6-65AE-453D-91F4-9BB307A30D86} = {210E534E-F60A-4353-89E9-E4E4E4B0B623}
+		{2A977A47-D2B9-4541-855E-532802FF6B8C} = {210E534E-F60A-4353-89E9-E4E4E4B0B623}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4447F818-A9EB-4A75-AE12-7DA309398544}

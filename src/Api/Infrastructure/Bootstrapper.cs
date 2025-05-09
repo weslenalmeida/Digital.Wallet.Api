@@ -2,6 +2,7 @@ using Application.Shared;
 using Domain.Interfaces.v1.Context;
 using Domain.Interfaces.v1.Repositories;
 using Infrastructure.Data.v1.Mongo;
+using Infrastructure.Data.v1.Sql;
 
 namespace Application.Infrastructure
 {
@@ -19,8 +20,9 @@ namespace Application.Infrastructure
 
         private static void InjectSingleton(IServiceCollection services)
         {
-            services.AddSingleton(typeof(IPersonRepository), typeof(PersonRepository)); 
-            services.AddSingleton(typeof(IContext), new Context()); 
+            services.AddSingleton(typeof(IPersonRepository), new PersonRepository());
+            services.AddSingleton(typeof(ITransferRepository), new TransferRepository());
+            services.AddSingleton(typeof(IContext), new Context());
         }
 
         private static void InjectMediator(IServiceCollection services)
@@ -36,6 +38,6 @@ namespace Application.Infrastructure
 
         private static void InjectHealthChecks(IServiceCollection services) =>
             services.AddHealthChecks();
-    
+
     }
 }

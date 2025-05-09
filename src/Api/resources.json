@@ -19,6 +19,10 @@
     {
       "key": "UserBadRequestException",
       "value": "Invalid email or password!"
+    },
+    {
+      "key": "AmountBalanceException",
+      "value": "Insufficient funds!"
     }
   ]
 }
