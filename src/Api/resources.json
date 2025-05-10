@@ -1,0 +1,28 @@
+{
+  "resource": [
+    {
+      "key": "InternalErrorException",
+      "value": "Api internal error."
+    },
+    {
+      "key": "UserNotFoundException",
+      "value": "Invalid email!"
+    },
+    {
+      "key": "UnauthorizedException",
+      "value": "Unauthorized Access!"
+    },
+    {
+      "key": "InvalidTokenException",
+      "value": "Invalid or expired token!"
+    },
+    {
+      "key": "UserBadRequestException",
+      "value": "Invalid email or password!"
+    },
+    {
+      "key": "AmountBalanceException",
+      "value": "Insufficient funds!"
+    }
+  ]
+}
