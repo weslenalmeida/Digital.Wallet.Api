@@ -14,7 +14,6 @@ A **Wallet API** é uma aplicação em C# com PostgreSQL que permite:
 - .NET 8 (recomendado)
 - PostgreSQL
 - Dapper
-- UUID como chave primária
 
 ## 🧱 Banco de Dados
 
